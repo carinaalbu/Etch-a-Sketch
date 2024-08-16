@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 172, 248);
+    width: 960px;
+    height: 960px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.gridSquare{
+    width: 100%;
+    background-color: rgb(157, 155, 158);
+    border: 1px solid black;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 30px 0px 30px 0px;
+}
+
+#buttonStyle{
+    width: auto;
+    height: 50px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
